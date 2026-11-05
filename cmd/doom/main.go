@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"unheaded/internal/doom"
+	"unheaded-doom/internal/doom"
 	"unheaded/pkg/cmdline"
 )
 

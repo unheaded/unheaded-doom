@@ -11,7 +11,7 @@ import (
 	"math"
 	"math/rand"
 
-	bpfpkg "unheaded/internal/bpf"
+	bpfpkg "unheaded-doom/internal/bpf"
 )
 
 // Import math functions used in dry-run screen generation.

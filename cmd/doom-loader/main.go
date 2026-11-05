@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"unheaded/internal/bpf"
+	"unheaded-doom/internal/bpf"
 	"unheaded/pkg/cmdline"
 )
 

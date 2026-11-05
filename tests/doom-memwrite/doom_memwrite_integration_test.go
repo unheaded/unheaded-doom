@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	bpfpkg "unheaded/internal/bpf"
+	bpfpkg "unheaded-doom/internal/bpf"
 )
 
 // Integration tests require:

@@ -11,7 +11,7 @@ import (
 
 	"github.com/unheaded/doomgeneric/pkg/doom"
 
-	upcdoom "unheaded/internal/doom"
+	upcdoom "unheaded-doom/internal/doom"
 )
 
 // newDoomCmd creates the doom subcommand group.

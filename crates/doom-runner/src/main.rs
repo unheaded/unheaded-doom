@@ -1072,7 +1072,7 @@ mod upc_gate_tests {
     use super::*;
 
     mod object_surface {
-        include!("../../../ebpf/monad-cpu-ebpf/surface.rs");
+        include!("../../../../../unheaded/ebpf/monad-cpu-ebpf/surface.rs");
     }
 
     fn facts(numbers: &[u32]) -> upc_api::ObjectFacts {

@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"unheaded/internal/bpf"
+	"unheaded-doom/internal/bpf"
 	"unheaded/pkg/cmdline"
 )
 

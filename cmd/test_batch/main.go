@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	bpf "unheaded/internal/bpf"
+	bpf "unheaded-doom/internal/bpf"
 	"unheaded/pkg/cmdline"
 )
 

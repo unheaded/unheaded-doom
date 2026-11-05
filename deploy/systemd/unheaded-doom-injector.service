@@ -7,14 +7,14 @@
 
 [Unit]
 Description=DOOM on the UPC — monad packet injector
-Documentation=file:///home/govan/tmp/unheaded/docs/doom/ARCHITECTURE.md
+Documentation=file:///home/govan/tmp/projects/unheaded-doom/docs/doom/ARCHITECTURE.md
 After=unheaded-doom-runner.service
 Requires=unheaded-doom-runner.service
 PartOf=unheaded-doom.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/govan/tmp/unheaded
+WorkingDirectory=/home/govan/tmp/projects/unheaded-doom
 
 # Derive MACs from the live ring interfaces at start time
 ExecStartPre=/bin/bash -c '\
@@ -26,7 +26,7 @@ EnvironmentFile=/run/doom-injector.env
 
 ExecStart=/bin/bash -c '\
     exec ip netns exec monad0 \
-    /home/govan/tmp/unheaded/cmd/doom-go-injector/doom-go-injector \
+    /home/govan/tmp/projects/unheaded-doom/cmd/doom-go-injector/doom-go-injector \
         -iface veth01 \
         -src-mac $SRC_MAC \
         -dst-mac $DST_MAC \

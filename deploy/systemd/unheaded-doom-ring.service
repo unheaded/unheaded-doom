@@ -16,7 +16,7 @@
 
 [Unit]
 Description=DOOM on the UPC — monad packet ring setup
-Documentation=file:///home/govan/tmp/unheaded/docs/doom/ARCHITECTURE.md
+Documentation=file:///home/govan/tmp/projects/unheaded-doom/docs/doom/ARCHITECTURE.md
 After=network.target
 # Teardown on stop so the ring is clean on next start
 StopWhenUnneeded=no
@@ -24,12 +24,12 @@ StopWhenUnneeded=no
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=/home/govan/tmp/unheaded
+WorkingDirectory=/home/govan/tmp/projects/unheaded-doom
 
 # Teardown any stale ring from a previous session before setup
-ExecStartPre=-/home/govan/tmp/unheaded/scripts/doom-ring.sh teardown
-ExecStart=/home/govan/tmp/unheaded/scripts/doom-ring.sh setup
-ExecStop=/home/govan/tmp/unheaded/scripts/doom-ring.sh teardown
+ExecStartPre=-/home/govan/tmp/projects/unheaded-doom/scripts/doom-ring.sh teardown
+ExecStart=/home/govan/tmp/projects/unheaded-doom/scripts/doom-ring.sh setup
+ExecStop=/home/govan/tmp/projects/unheaded-doom/scripts/doom-ring.sh teardown
 
 TimeoutStartSec=30
 TimeoutStopSec=15

@@ -10,7 +10,7 @@
 
 [Unit]
 Description=DOOM on the UPC — Aya MBC executor + ROM loader
-Documentation=file:///home/govan/tmp/unheaded/docs/doom/FINDINGS.md
+Documentation=file:///home/govan/tmp/projects/unheaded-doom/docs/doom/FINDINGS.md
 After=unheaded-doom-ring.service
 Requires=unheaded-doom-ring.service
 PartOf=unheaded-doom.target
@@ -22,16 +22,16 @@ WorkingDirectory=/home/govan/tmp/unheaded
 # The `run` subcommand is required, as are --doom-mbc and --doom-elf (no defaults).
 # Swap --wad for doom1.wad to run shareware; doom-runner detects the IWAD flavour
 # from the lump directory, so no rebuild is needed to change WADs.
-ExecStart=/home/govan/tmp/unheaded/crates/doom-runner/target/release/doom-runner run \
-    --doom-mbc /home/govan/tmp/unheaded/demos/doom/doom.mbc \
-    --doom-elf /home/govan/tmp/unheaded/demos/doom/doom.elf \
-    --rv2mbc   /home/govan/tmp/unheaded/demos/doom/doom.rv2mbc \
+ExecStart=/home/govan/tmp/projects/unheaded-doom/crates/doom-runner/target/release/doom-runner run \
+    --doom-mbc /home/govan/tmp/projects/unheaded-doom/doom/doom.mbc \
+    --doom-elf /home/govan/tmp/projects/unheaded-doom/doom/doom.elf \
+    --rv2mbc   /home/govan/tmp/projects/unheaded-doom/doom/doom.rv2mbc \
     --wad      /home/govan/tmp/projects/doom-related/DOOM.WAD \
     --hops 2
 
 # XDP attach: doom-runner loads the prog but does NOT attach it.
 # This runs after the process is up and the prog is in the kernel.
-ExecStartPost=/home/govan/tmp/unheaded/scripts/doom-xdp-attach.sh 20
+ExecStartPost=/home/govan/tmp/projects/unheaded-doom/scripts/doom-xdp-attach.sh 20
 
 Restart=on-failure
 RestartSec=5s

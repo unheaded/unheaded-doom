@@ -21,6 +21,6 @@
 
 [Unit]
 Description=DOOM on the UPC — full pipeline target
-Documentation=file:///home/govan/tmp/unheaded/docs/doom/RUNBOOK.md
+Documentation=file:///home/govan/tmp/projects/unheaded-doom/docs/doom/RUNBOOK.md
 Wants=unheaded-doom-ring.service unheaded-doom-runner.service unheaded-doom-injector.service
 After=unheaded-doom-ring.service unheaded-doom-runner.service unheaded-doom-injector.service

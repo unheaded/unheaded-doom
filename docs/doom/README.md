@@ -162,3 +162,9 @@ sudo nsenter --net=/var/run/netns/monad0 ./bin/doom-go-injector \
 | `docs/doom/UPC-PORT-PROCESS.md` | How to port any C program to the UPC |
 | `docs/doom/PIVOT-TO-ID-DOOM.md` | Decision record: doomgeneric -> linuxdoom-1.10 |
 | `docs/doom/NEXT-STEPS.md` | Prioritized roadmap |
+
+## Service map
+
+`service-ontology.drawio` and its PDF export are the Unheaded service map as it
+stood when Doom was one of its services. The boxes `p4_runner` and `p4_doom` left
+the Unheaded copy on 2026-11-05 and stay here.

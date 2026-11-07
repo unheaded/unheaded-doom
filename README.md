@@ -22,4 +22,5 @@ This repository expects `unheaded` checked out at `../../unheaded` relative to i
     go build ./...
     cd crates/doom-runner && cargo build --release
 
-WAD files are not in this repository.
+WAD files are not in this repository. `doom/doom.wad` and `doom/doom2.wad` are
+gitignored, so `git clean -X` deletes them; download them again afterwards.

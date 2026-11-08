@@ -28,4 +28,9 @@ gitignored, so `git clean -X` deletes them; download them again afterwards.
 ## License
 
 GPL-2.0-or-later (`LICENSE`), the same terms as the Doom sources it builds on.
-The files marked `SPDX-License-Identifier: MIT` are MIT.
+The Go tools and doom-runner link GPL-3.0-or-later code from `unheaded` and
+Apache-2.0 libraries, so binaries built from them are distributed under GPL-3.0.
+
+DOOM is a registered trademark of id Software LLC. This project is not
+affiliated with or endorsed by id Software, ZeniMax Media or Microsoft. No
+WAD files are included.

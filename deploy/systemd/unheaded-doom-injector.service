@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-2.0-or-later
 # unheaded-doom-injector — DOOM packet circulator (monad ring heartbeat)
 #
 # Injects IPv6 packets into the monad ring, driving the MBC clock.

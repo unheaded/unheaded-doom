@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Copyright (c) 2024-2026 Stevie Bellis. All rights reserved.
 # docker/services/doom/Dockerfile
 
@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 FROM gcr.io/distroless/static-debian12:nonroot
 LABEL org.opencontainers.image.title="unheaded-doom" \
       org.opencontainers.image.description="Doom TCP service" \
-      org.opencontainers.image.licenses="GPL-3.0-or-later" \
+      org.opencontainers.image.licenses="GPL-2.0-or-later" \
       com.unheaded.memory="1Gi"
 COPY --from=certs /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /out/doom /usr/local/bin/doom

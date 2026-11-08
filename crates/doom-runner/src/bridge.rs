@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! Screen bridge: reads SCREEN_MAP from BPF and streams pixel data to a browser.
 //!
 //! Integrated into doom-runner — no external Go bridge needed.

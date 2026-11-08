@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! ELF-aware section loader for Doom-over-IPv6.
 //!
 //! Parses `doom.elf` with `goblin`, extracts sections, and loads them into the

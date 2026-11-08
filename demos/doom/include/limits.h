@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // limits.h for bare-metal RV32I
 #ifndef _LIMITS_H
 #define _LIMITS_H

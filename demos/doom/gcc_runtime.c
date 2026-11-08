@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // gcc_runtime.c — Software div/mul/float for RV32I restricted to x0-x15
 //
 // Replaces libgcc functions that use x16-x31 registers.

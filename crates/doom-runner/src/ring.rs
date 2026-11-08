@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! Network namespace and veth ring setup for Doom-over-IPv6.
 //!
 //! Replaces `doom-ring.sh` with structured Rust code. Uses `std::process::Command`

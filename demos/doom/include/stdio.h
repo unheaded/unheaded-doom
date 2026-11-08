@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Minimal stdio.h for bare-metal Doom on MBC
 #ifndef _STDIO_H
 #define _STDIO_H

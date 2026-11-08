@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024-2026 Stevie Bellis. All rights reserved.
 
 // cmd/doom-cpu-dump reads and displays CPU state from BPF maps.

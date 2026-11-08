@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // libc_stubs.c — Bare-metal libc for Doom on MBC (Monad Bytecode)
 //
 // Provides minimal C library functions for doomgeneric running in the UPC.

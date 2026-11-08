@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // i_system_mbc.c — MBC platform layer for id DOOM i_system
 //
 // Replaces linuxdoom-1.10/i_system.c (which uses gettimeofday, exit, etc.)

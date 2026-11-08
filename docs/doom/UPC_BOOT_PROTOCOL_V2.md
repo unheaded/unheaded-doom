@@ -1,6 +1,6 @@
 # UPC Boot Protocol v2
 
-*SPDX-License-Identifier: GPL-3.0-or-later*
+*SPDX-License-Identifier: GPL-2.0-or-later*
 
 **Status:** Frozen 2026-05-08 per ADR-067.
 **Supersedes:** `docs/doom/UPC_BOOT_PROTOCOL.md` (v1).

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-2.0-or-later
 # unheaded-doom-runner — Doom on the UPC (Aya/eBPF MBC executor + ROM loader)
 #
 # Loads the monad_cpu XDP program and Doom ROM into BPF maps.

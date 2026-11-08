@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Minimal string.h for bare-metal Doom on MBC
 #ifndef _STRING_H
 #define _STRING_H

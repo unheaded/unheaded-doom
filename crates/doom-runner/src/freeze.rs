@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! `BPF_MAP_FREEZE` for ROM_MAP and RV2MBC_MAP (S-ASCEND-2 Steps 157-161,
 //! ADR-080 §7). Same call as `cmd/upc-bootctl/src/freeze.rs`: aya 0.13 freezes
 //! only the `.rodata` maps it creates itself, so this calls bpf(2) on the map fd

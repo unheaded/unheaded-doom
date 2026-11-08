@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // values.h — m_bbox.h needs MAXINT
 #ifndef _VALUES_H
 #define _VALUES_H

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // i_net_mbc.c — MBC network stubs for id DOOM (single-player only)
 //
 // Replaces linuxdoom-1.10/i_net.c (BSD sockets) with single-player stubs.

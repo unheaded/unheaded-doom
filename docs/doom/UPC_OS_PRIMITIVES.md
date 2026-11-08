@@ -1,6 +1,6 @@
 # UPC OS Primitives -- Level 4 Implementation Summary
 
-*SPDX-License-Identifier: GPL-3.0-or-later*
+*SPDX-License-Identifier: GPL-2.0-or-later*
 
 **Date:** 2026-03-15
 **Status:** All 6 primitives implemented and tested

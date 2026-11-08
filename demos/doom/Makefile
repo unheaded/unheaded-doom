@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-2.0-or-later
 # id DOOM 1.10 → RV32I → MBC Bytecode
 # Build pipeline for Doom-over-IPv6 using original id Software source
 #

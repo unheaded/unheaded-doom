@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 // i_sound_mbc.c — MBC sound stubs for id DOOM (all no-ops)
 //
 // No audio hardware on MBC. All functions are stubs.

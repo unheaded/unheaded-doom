@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! doom-runner — Aya-based Doom-over-IPv6 runtime.
 //!
 //! Replaces the fragile shell script + Go loader chain with a single Rust binary

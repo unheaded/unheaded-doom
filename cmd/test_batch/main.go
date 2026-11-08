@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-2.0-or-later
 //
 // cmd/test_batch — scratch tool for batch-reading the Doom screen BPF map.
 // Marshal note 2026-05-07: this file's production-vs-scratch status is

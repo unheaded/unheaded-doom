@@ -363,5 +363,5 @@ GPL ensures anyone can study how. Fork it. Improve it. The protocol is free.
 
 ---
 
-*SPDX-License-Identifier: GPL-3.0-or-later*
+*SPDX-License-Identifier: GPL-2.0-or-later*
 *The road is long. The dream is real. One level at a time.*

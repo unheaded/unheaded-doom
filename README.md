@@ -11,7 +11,7 @@ Moved out of `unheaded/unheaded` on 2026-11-04 with its history (DP-305). The UP
 | `crates/doom-runner` | Aya runtime: loads the object, ROM and WAD, attaches XDP, runs the ring |
 | `cmd/doom-ctl` | operator tool; `doom` and `load-mem` came from `wotan-ctl`, the rest is a copy of it |
 | `cmd/doom-*`, `internal/` | loaders, bridge, injectors |
-| `demos/doom`, `doomgeneric/` | the port and the C sources (GPL-2.0, see `doom/LICENSE`) |
+| `demos/doom`, `doomgeneric/` | the port and the C sources |
 | `docs/doom`, `runbooks/doom` | everything learned, and how to run it |
 | `reference/` | the dashboard REST endpoints, kept as text |
 
@@ -24,3 +24,8 @@ This repository expects `unheaded` checked out at `../../unheaded` relative to i
 
 WAD files are not in this repository. `doom/doom.wad` and `doom/doom2.wad` are
 gitignored, so `git clean -X` deletes them; download them again afterwards.
+
+## License
+
+GPL-2.0-or-later (`LICENSE`), the same terms as the Doom sources it builds on.
+The files marked `SPDX-License-Identifier: MIT` are MIT.

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-2.0-or-later
 //! Memory layout — THE single source of truth for the Doom-over-IPv6 address space.
 //!
 //! Every other component (linker.ld, monad-common mbc_mmap, libc_stubs.c, doom-loader)
